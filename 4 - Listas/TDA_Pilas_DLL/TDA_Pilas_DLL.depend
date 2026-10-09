@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1790539039 source:d:\programacion ii\listas\tda_pilas_dll\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack_dynamic_DLL.h"
+
+1790347648 d:\programacion ii\listas\tda_pilas_dll\stack_dynamic_dll.h
+

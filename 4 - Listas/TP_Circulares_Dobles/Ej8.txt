@@ -1,0 +1,110 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+typedef struct _DNode {
+	int value;
+	struct _DNode* next;
+	struct _DNode* prev;
+} DNode;
+
+typedef struct _DCLL {
+	struct _DNode* head;
+	struct _DNode* tail;
+	int count;
+} DCLL;
+
+/* Insertar una DCLL completa, en otra DCLL después de un nodo dado. */
+
+void insertDCLL(DCLL* small, DCLL* big, DNode* fromNode) {
+	if(!small || !big || !fromNode) return;
+	
+ 	// SI EL PEQUENO NO TIENE ELEMENTOS NO ES NECESARIO HACER NADA
+	if(small->count == 0){
+		return;
+	// SI EL GRANDE NO TIENE ELEMENTOS, GRANDE PASA A SER EL PEQUENO
+	} else if(big->count == 0) {
+		big->head = small->head;
+		big->tail = small->tail;
+		big->count = small->count;
+	// SI TANTO EL GRANDE COMO EL PEQUENO TIENEN ELEMENTOS, CONECTO
+	} else {
+		DNode* endConection = fromNode->next;
+		small->head->prev = fromNode;
+		fromNode->next = small->head;
+		small->tail->next = endConection;
+		endConection->prev = small->tail;
+
+		if(fromNode == big->tail) {
+			big->tail = small->tail;
+		}
+
+		big->count = big->count + small->count;
+	}
+}
+
+void printDCLL(DCLL* list) {
+	if(!list) return;
+
+	DNode* current = list->head;
+	if(current != NULL) {
+		do {
+			printf("%d ",current->value);
+			current = current->next;
+		} while(current!=NULL && current!=list->head);
+	}
+}
+
+int main() {
+//---------------------------------------------------------------------------------
+	// DCLL big
+    	DNode* first = malloc(sizeof(DNode));
+    	DNode* second = malloc(sizeof(DNode));
+	DNode* third = malloc(sizeof(DNode));
+	DNode* fourth = malloc(sizeof(DNode));
+
+	first->value = 1;
+    	first->next = second;
+	first->prev = fourth;
+
+    	second->value = 2;
+    	second->next = third;
+	second->prev = first;
+
+	third->value = 3;
+    	third->next = fourth;
+	third->prev = second;
+
+	fourth->value = 4;
+    	fourth->next = first;
+	fourth->prev = third;
+
+	DCLL* big = malloc(sizeof(DCLL));
+	big->head = first;
+	big->tail = fourth;
+	big->count = 4;
+
+//---------------------------------------------------------------------------------	
+	// DCLL small
+	DNode* head = malloc(sizeof(DNode));
+    	DNode* tail = malloc(sizeof(DNode));
+
+	head->value = 7;
+    	head->next = tail;
+	head->prev = tail;
+
+    	tail->value = 8;
+    	tail->next = head;
+	tail->prev = head;
+	
+	DCLL* small = malloc(sizeof(DCLL));
+	small->head = head;
+	small->tail = tail;
+	small->count = 2;
+//---------------------------------------------------------------------------------
+
+	insertDCLL(small,big,second);
+
+	printDCLL(big);
+
+	return 0;
+}

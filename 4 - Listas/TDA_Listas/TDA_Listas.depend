@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1790131495 source:d:\programacion ii\listas\tp4_listas\tda_listas\lista_dinamica.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_dinamica.h"
+
+1790121243 d:\programacion ii\listas\tp4_listas\tda_listas\lista_dinamica.h
+	<stdbool.h>
+
+1790129607 source:d:\programacion ii\listas\tp4_listas\tda_listas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_estatica.h"
+	"lista_dinamica.h"
+
+1790042254 d:\programacion ii\listas\tp4_listas\tda_listas\lista_estatica.h
+
+1790042366 source:d:\programacion ii\listas\tp4_listas\tda_listas\lista_estatica.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_estatica.h"
+

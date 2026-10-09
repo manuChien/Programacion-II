@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1787843455 source:d:\programacion ii\guia 1\ejercicio2b\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"charset.h"
+
+1787842869 d:\programacion ii\guia 1\ejercicio2b\charset.h
+
+1787843668 source:d:\programacion ii\guia 1\ejercicio2b\charset.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"charset.h"
+

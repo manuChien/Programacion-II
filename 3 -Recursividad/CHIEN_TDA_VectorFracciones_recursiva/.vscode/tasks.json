@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Compilar proyecto C",
+      "command": "C:\\MinGW\\bin\\gcc.exe",
+      "args": [
+        "-Wall",
+        "-Wextra",
+        "-g3",
+        "main.c",
+        "fracciones.c",
+        "vector.c",
+        "funciones.c",
+        "-o",
+        "output\\main.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Compila todos los módulos del proyecto"
+    }
+  ]
+}

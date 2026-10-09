@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1743445502 source:d:\programacion ii\listas\tp4_listas\tda_colas\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1790211650 source:d:\programacion ii\listas\tp4_listas\tda_colas\queue_dynamic.c
+	<stdio.h>
+	<stdlib.h>
+	"queue_dynamic.h"
+
+1790211576 d:\programacion ii\listas\tp4_listas\tda_colas\queue_dynamic.h
+
+1790216025 source:d:\programacion ii\listas\tp4_listas\tda_colas\queue_static.c
+	<stdio.h>
+	<stdlib.h>
+	"queue_static.h"
+
+1790212430 d:\programacion ii\listas\tp4_listas\tda_colas\queue_static.h
+

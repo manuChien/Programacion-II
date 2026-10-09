@@ -1,0 +1,126 @@
+# depslib dependency file v1.0
+1789702487 source:d:\programacion ii\arreglos\tp_bis\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1789702268 d:\programacion ii\arreglos\tp_bis\funciones.h
+
+1789686468 source:d:\programacion ii\arreglos\tp_bis\ej1.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789688127 source:d:\programacion ii\arreglos\tp_bis\ej2.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789699219 source:d:\programacion ii\arreglos\tp_bis\ej3.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789699631 source:d:\programacion ii\arreglos\tp_bis\ej4.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789700472 source:d:\programacion ii\arreglos\tp_bis\ej5.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789701891 source:d:\programacion ii\arreglos\tp_bis\ej6.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789702472 source:d:\programacion ii\arreglos\tp_bis\ej7.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789686468 source:d:\programacion ii\recursividad\tp_bis\ej1.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790815813 d:\programacion ii\recursividad\tp_bis\funciones.h
+	"vector.h"
+	"matrix.h"
+
+1789688127 source:d:\programacion ii\recursividad\tp_bis\ej2.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789699219 source:d:\programacion ii\recursividad\tp_bis\ej3.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789699631 source:d:\programacion ii\recursividad\tp_bis\ej4.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789700472 source:d:\programacion ii\recursividad\tp_bis\ej5.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789701891 source:d:\programacion ii\recursividad\tp_bis\ej6.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789702561 source:d:\programacion ii\recursividad\tp_bis\ej7.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790815785 source:d:\programacion ii\recursividad\tp_bis\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1790734256 d:\programacion ii\recursividad\tp_bis\vector.h
+
+1790717019 source:d:\programacion ii\recursividad\tp_bis\vector.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+
+1790717749 source:d:\programacion ii\recursividad\tp_bis\ej9.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790738010 source:d:\programacion ii\recursividad\tp_bis\ej10.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1790815763 d:\programacion ii\recursividad\tp_bis\matrix.h
+
+1790709708 source:d:\programacion ii\recursividad\tp_bis\matrix.c
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+
+1790812183 source:d:\programacion ii\recursividad\tp_bis\ej11.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1790815863 source:d:\programacion ii\recursividad\tp_bis\ej12.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+

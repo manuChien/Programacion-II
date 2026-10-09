@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1789613367 source:d:\programacion ii\arreglos\guia2\1\ejercicio19\matrix.c
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+
+1789612609 d:\programacion ii\arreglos\guia2\1\ejercicio19\matrix.h
+
+1789614632 source:d:\programacion ii\arreglos\guia2\1\ejercicio19\vector.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+
+1789614502 d:\programacion ii\arreglos\guia2\1\ejercicio19\vector.h
+

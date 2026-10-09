@@ -1,0 +1,122 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+typedef struct _DNode {
+	int value;
+	struct _DNode* next;
+	struct _DNode* prev;
+} DNode;
+
+typedef struct _Node {
+	int value;
+	struct _Node* next;
+} Node;
+
+// VERIFICAR RECURSIVAMENTE SI UNA DLL ESTA EN ORDEN INVERSO A UNA CLL
+
+void _DLLinversoCLL_recursivo_aux(Node* CLL, DNode* DLL, int* inverso) {
+	// COMO YA COMPROBE PREVIAMENTE QUE TIENEN EL MISMO TAMAÑO Y EN CADA RECURSION ME MUEVO UN NODO EN CADA LISTA,
+	// PUEDO SIMPLEMENTE CHEQUEAR EL DLL
+	if(!(DLL->prev) ) {
+		// ACA COMPARO EL PRIMERO DE DLL Y ULTIMO DE CLL
+		// SI LOS VALORES NO COINCIDEN PONGO INVERSO EN 0 Y TERMINO LA RECURSION
+		if( (DLL->value) != (CLL->value) ) {
+			*inverso = 0;
+			return;
+		}
+	} else {
+		_DLLinversoCLL_recursivo_aux(CLL->next,DLL->prev,inverso);
+		// SI LOS VALORES NO COINCIDEN PONGO INVERSO EN 0 Y TERMINO LA RECURSION
+		if( (DLL->value) != (CLL->value) ) {
+			*inverso = 0;
+			return;
+		}
+	}
+}
+
+int DLLinversoCLL_recursivo(DNode* DLL, Node* CLL) {
+	if(!DLL && !CLL) return 1;
+	if(!DLL || !CLL) return 0;
+
+	DNode* dllCurrent = DLL;
+	int dllCount = 0;
+	while(dllCurrent != NULL) {
+		dllCount++;
+		dllCurrent = dllCurrent->next;
+	}
+
+	Node* cllCurrent = CLL;
+	int cllCount = 0;
+	do {
+		cllCount++;
+		cllCurrent = cllCurrent->next;
+	} while(cllCurrent != CLL);
+
+	// Si las cantidades son distintas no pueden ser inversos
+	if(dllCount != cllCount) {
+		return 0;
+	}
+
+	int inverso = 1;
+	// POSICIONO A dllCurrent EN EL TAIL DE LA DLL
+	dllCurrent = DLL;
+	for(int i=0; i<dllCount-1; i++) {
+		dllCurrent = dllCurrent->next;
+	}
+	// PASO LA CABEZA DEL CLL Y LA COLA DEL DLL
+	_DLLinversoCLL_recursivo_aux(CLL->next,dllCurrent,&inverso);
+
+	return (inverso==1) ? 1:0;
+}
+
+int main() {
+	// DLL
+
+    	DNode* head = malloc(sizeof(DNode));
+    	DNode* first = malloc(sizeof(DNode));
+    	DNode* second = malloc(sizeof(DNode));
+    	DNode* tail = malloc(sizeof(DNode));
+
+    	head->value = 1;
+    	head->next = first;
+	head->prev = NULL;
+
+    	first->value = 2;
+    	first->next = second;
+	first->prev = head;
+
+    	second->value = 3;
+    	second->next = tail;
+	second->prev = first;
+
+    	tail->value = 4;
+    	tail->next = NULL;
+	tail->prev = second;
+
+    	// CLL
+
+    	Node* head1 = malloc(sizeof(Node));
+    	Node* first1 = malloc(sizeof(Node));
+    	Node* second1 = malloc(sizeof(Node));
+    	Node* tail1 = malloc(sizeof(Node));
+
+    	head1->value = 4;
+    	head1->next = first1;
+
+    	first1->value = 3;
+    	first1->next = second1;
+
+    	second1->value = 2;
+    	second1->next = tail1;
+
+    	tail1->value = 1;
+    	tail1->next = head1;
+
+	if(DLLinversoCLL_recursivo(head,tail1) == 1) {
+		printf("Esta en orden inverso\n");
+	} else {
+		printf("No esta en orden inverso\n");
+	}
+
+	return 0;
+}

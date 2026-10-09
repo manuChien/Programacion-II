@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1790538245 source:d:\programacion ii\listas\tda_colas_cll\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue_dynamic_CLL.h"
+
+1790263610 d:\programacion ii\listas\tda_colas_cll\queue_dynamic_cll.h
+
+1790539003 source:d:\programacion ii\listas\tda_colas_cll\queue_dynamic_cll.c
+	<stdio.h>
+	<stdlib.h>
+	"queue_dynamic_CLL.h"
+

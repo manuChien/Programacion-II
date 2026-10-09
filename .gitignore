@@ -1,0 +1,8 @@
+# Ejecutables y binarios
+*.exe
+*.o
+*.obj
+
+# Salidas de compilación y temporales
+output/
+.tmp.driveupload/

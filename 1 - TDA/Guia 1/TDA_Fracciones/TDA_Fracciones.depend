@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1743445502 source:d:\programacion ii\tda\guia 1\tda_fracciones\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1788390694 source:d:\programacion ii\tda\guia 1\tda_fracciones\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"fracciones.h"
+
+1788389952 d:\programacion ii\tda\guia 1\tda_fracciones\funciones.h
+
+1788456535 d:\programacion ii\tda\guia 1\tda_fracciones\fracciones.h
+
+1788390574 source:d:\programacion ii\tda\guia 1\tda_fracciones\fracciones.c
+	<stdio.h>
+	<stdlib.h>
+	"fracciones.h"
+	"funciones.h"
+

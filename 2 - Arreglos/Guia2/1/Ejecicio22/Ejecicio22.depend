@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1789613367 source:d:\programacion ii\arreglos\guia2\1\ejecicio22\matrix.c
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+
+1790709144 d:\programacion ii\arreglos\guia2\1\ejecicio22\matrix.h
+
+1789614632 source:d:\programacion ii\arreglos\guia2\1\ejecicio22\vector.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+
+1789614502 d:\programacion ii\arreglos\guia2\1\ejecicio22\vector.h
+
+1789660274 source:d:\programacion ii\arreglos\guia2\1\ejecicio22\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+	"vector.h"
+	"funciones.h"
+
+1790709086 d:\programacion ii\arreglos\guia2\1\ejecicio22\funciones.h
+
+1789660216 source:d:\programacion ii\arreglos\guia2\1\ejecicio22\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+	"vector.h"
+	"funciones.h"
+

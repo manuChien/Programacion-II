@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1743445502 source:d:\programacion ii\listas\tp4_listas\tda_pilas\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1790208739 source:d:\programacion ii\listas\tp4_listas\tda_pilas\stack_dynamic.c
+	<stdio.h>
+	<stdlib.h>
+	"stack_dynamic.h"
+
+1790205751 d:\programacion ii\listas\tp4_listas\tda_pilas\stack_dynamic.h
+
+1790205664 source:d:\programacion ii\listas\tp4_listas\tda_pilas\stack_static.c
+	<stdio.h>
+	<stdlib.h>
+	"stack_static.h"
+
+1790205561 d:\programacion ii\listas\tp4_listas\tda_pilas\stack_static.h
+

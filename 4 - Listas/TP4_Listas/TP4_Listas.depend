@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1790028583 source:d:\programacion ii\listas\tp4_listas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790026847 d:\programacion ii\listas\tp4_listas\funciones.h
+
+1789668757 source:d:\programacion ii\listas\tp4_listas\ej1.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789686021 source:d:\programacion ii\listas\tp4_listas\ej2.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789741993 source:d:\programacion ii\listas\tp4_listas\ej3.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789744223 source:d:\programacion ii\listas\tp4_listas\ej4.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789746364 source:d:\programacion ii\listas\tp4_listas\ej5.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1789759876 source:d:\programacion ii\listas\tp4_listas\ej6.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790026446 source:d:\programacion ii\listas\tp4_listas\ej7.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790028488 source:d:\programacion ii\listas\tp4_listas\ej8.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

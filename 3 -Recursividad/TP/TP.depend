@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1789068530 source:d:\programacion ii\recursividad\tp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"vector.h"
+
+1789050300 source:d:\programacion ii\recursividad\tp\vector.c
+	<stdlib.h>
+	<stdio.h>
+	"vector.h"
+
+1789053266 d:\programacion ii\recursividad\tp\vector.h
+

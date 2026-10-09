@@ -1,0 +1,98 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+typedef struct _DNode {
+	int value;
+	struct _DNode* next;
+	struct _DNode* prev;
+} DNode;
+
+typedef struct _DCLL {
+	struct _DNode* head;
+	struct _DNode* tail;
+	int count;
+} DCLL;
+
+/* Dada una DCLL (Double Circular Linked List) y dos punteros a nodos a y b, extraer el tramo que va de a a b como una DCLL nueva */
+
+DCLL* extraer(DNode* first, DNode* last) {
+	if(!first || !last) return NULL;
+
+	DCLL* newList = malloc(sizeof(DCLL));
+	if(!newList) return NULL;
+
+	if(first->prev != last) {
+		first->prev->next = last->next;
+		last->next->prev = first->prev;	
+	}
+
+	first->prev = last;
+	last->next = first;
+	
+	newList->head = first;
+	newList->tail = last;
+
+	DNode* current = first;
+	int count = 0;
+	do {
+		count++;
+		current = current->next;
+	} while(current!=first);
+
+	newList->count = count;
+
+	return newList;
+}
+
+void printDCLL(DCLL* list) {
+	if(!list) return;
+
+	DNode* current = list->head;
+	if(current != NULL) {
+		do {
+			printf("%d ",current->value);
+			current = current->next;
+		} while(current!=NULL && current!=list->head);
+	}
+}
+
+int main() {
+	// DCLL
+
+    	DNode* head = malloc(sizeof(DNode));
+    	DNode* first = malloc(sizeof(DNode));
+    	DNode* second = malloc(sizeof(DNode));
+	DNode* third = malloc(sizeof(DNode));
+	DNode* fourth = malloc(sizeof(DNode));
+    	DNode* tail = malloc(sizeof(DNode));
+
+    	head->value = 0;
+    	head->next = first;
+	head->prev = NULL;
+
+    	first->value = 1;
+    	first->next = second;
+	first->prev = head;
+
+    	second->value = 2;
+    	second->next = third;
+	second->prev = first;
+
+	third->value = 3;
+    	third->next = fourth;
+	third->prev = second;
+
+	fourth->value = 4;
+    	fourth->next = tail;
+	fourth->prev = third;
+
+    	tail->value = 5;
+    	tail->next = head;
+	tail->prev = second;
+
+	DCLL* newList = extraer(first,fourth);
+
+	printDCLL(newList);
+
+	return 0;
+}

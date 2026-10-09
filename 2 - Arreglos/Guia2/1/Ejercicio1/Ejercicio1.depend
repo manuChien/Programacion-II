@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1787944176 source:d:\programacion ii\arreglos\guia2\1\ejercicio1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+
+1711038632 d:\programacion ii\arreglos\guia2\1\ejercicio1\vector.h
+
+1787945109 source:d:\programacion ii\arreglos\guia2\1\ejercicio1\vector.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+

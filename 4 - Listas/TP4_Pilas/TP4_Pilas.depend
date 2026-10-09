@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1790210702 source:d:\programacion ii\listas\tp4_listas\tda_pilas\stack_dynamic.c
+	<stdio.h>
+	<stdlib.h>
+	"stack_dynamic.h"
+
+1790218975 d:\programacion ii\listas\tp4_listas\tda_pilas\stack_dynamic.h
+
+1790349688 source:d:\programacion ii\listas\tp4_pilas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790347522 d:\programacion ii\listas\tp4_pilas\funciones.h
+	"stack_dynamic.h"
+
+1790263127 source:d:\programacion ii\listas\tp4_pilas\ej9.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790347648 d:\programacion ii\listas\tp4_pilas\stack_dynamic.h
+
+1790276841 source:d:\programacion ii\listas\tp4_pilas\stack_dynamic.c
+	<stdio.h>
+	<stdlib.h>
+	"stack_dynamic.h"
+
+1790263547 source:d:\programacion ii\listas\tp4_pilas\ej10.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790264368 source:d:\programacion ii\listas\tp4_pilas\ej12.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790273277 source:d:\programacion ii\listas\tp4_pilas\ej14.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790276838 source:d:\programacion ii\listas\tp4_pilas\ej16.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<string.h>
+
+1790350076 source:d:\programacion ii\listas\tp4_pilas\ej18.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<string.h>
+

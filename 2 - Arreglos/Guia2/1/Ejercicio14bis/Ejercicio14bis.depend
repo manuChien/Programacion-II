@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1789599670 source:d:\programacion ii\arreglos\guia2\1\ejercicio14bis\fracciones.c
+	<stdio.h>
+	<stdlib.h>
+	"fracciones.h"
+	"funciones.h"
+
+1789501434 d:\programacion ii\arreglos\guia2\1\ejercicio14bis\fracciones.h
+
+1789597639 d:\programacion ii\arreglos\guia2\1\ejercicio14bis\funciones.h
+	"vector.h"
+	"fracciones.h"
+
+1789502311 d:\programacion ii\arreglos\guia2\1\ejercicio14bis\vector.h
+	"fracciones.h"
+
+1789598927 source:d:\programacion ii\arreglos\guia2\1\ejercicio14bis\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+	"fracciones.h"
+	"funciones.h"
+
+1789599252 source:d:\programacion ii\arreglos\guia2\1\ejercicio14bis\vector.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+
+1789599252 source:d:\programacion ii\arreglos\guia2\1\ejercicio14bis\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+	"fracciones.h"
+

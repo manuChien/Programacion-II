@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1790276841 source:d:\programacion ii\listas\torrehanoi\stack_dynamic.c
+	<stdio.h>
+	<stdlib.h>
+	"stack_dynamic.h"
+
+1790347648 d:\programacion ii\listas\torrehanoi\stack_dynamic.h
+
+1790525504 source:d:\programacion ii\listas\torrehanoi\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack_dynamic.h"
+

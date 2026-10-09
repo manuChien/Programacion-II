@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1790526876 source:d:\programacion ii\listas\tp_circulares_dobles\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790540667 d:\programacion ii\listas\tp_circulares_dobles\funciones.h
+
+1790547821 source:d:\programacion ii\listas\tp_circulares_dobles\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790527531 source:d:\programacion ii\listas\tp_circulares_dobles\ej1.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790535883 source:d:\programacion ii\listas\tp_circulares_dobles\ej2.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790536959 source:d:\programacion ii\listas\tp_circulares_dobles\ej3.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790547792 source:d:\programacion ii\listas\tp_circulares_dobles\ej5.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"stack_dynamic.h"
+
+1790218975 d:\programacion ii\listas\tp_circulares_dobles\stack_dynamic.h
+
+1790210702 source:d:\programacion ii\listas\tp_circulares_dobles\stack_dynamic.c
+	<stdio.h>
+	<stdlib.h>
+	"stack_dynamic.h"
+

@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1789524981 source:d:\programacion ii\arreglos\guia2\1\ejercicio11\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+	"funciones.h"
+
+1788396593 d:\programacion ii\arreglos\guia2\1\ejercicio11\vector.h
+
+1789522527 d:\programacion ii\arreglos\guia2\1\ejercicio11\funciones.h
+
+1788397295 source:d:\programacion ii\arreglos\guia2\1\ejercicio11\vector.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+	"funciones.h"
+
+1789525112 source:d:\programacion ii\arreglos\guia2\1\ejercicio11\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+	"funciones.h"
+

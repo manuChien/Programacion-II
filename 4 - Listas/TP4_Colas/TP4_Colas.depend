@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1790271928 source:d:\programacion ii\listas\tp4_colas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790272409 d:\programacion ii\listas\tp4_colas\funciones.h
+	"queue_dynamic.h"
+	"stack_dynamic.h"
+
+1790263610 d:\programacion ii\listas\tp4_colas\queue_dynamic.h
+
+1790218073 source:d:\programacion ii\listas\tp4_colas\queue_dynamic.c
+	<stdio.h>
+	<stdlib.h>
+	"queue_dynamic.h"
+
+1790263615 source:d:\programacion ii\listas\tp4_colas\ej10.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790263615 source:d:\programacion ii\listas\tp4_colas\ej11.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790264674 source:d:\programacion ii\listas\tp4_colas\ej12.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790218975 d:\programacion ii\listas\tp4_colas\stack_dynamic.h
+
+1790271902 source:d:\programacion ii\listas\tp4_colas\ej13.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1790210702 source:d:\programacion ii\listas\tp4_colas\stack_dynamic.c
+	<stdio.h>
+	<stdlib.h>
+	"stack_dynamic.h"
+
+1790272354 source:d:\programacion ii\listas\tp4_colas\ej14.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

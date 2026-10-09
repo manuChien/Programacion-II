@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1790305276 source:d:\programacion ii\listas\tda_elementos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue_dynamic.h"
+
+1790218073 source:d:\programacion ii\listas\tda_elementos\queue_dynamic.c
+	<stdio.h>
+	<stdlib.h>
+	"queue_dynamic.h"
+
+1790304944 d:\programacion ii\listas\tda_elementos\queue_dynamic.h
+	"elementos.h"
+
+1790295059 d:\programacion ii\listas\tda_elementos\elementos.h
+
+1790295202 source:d:\programacion ii\listas\tda_elementos\elementos.c
+	<stdio.h>
+	<stdlib.h>
+	"elementos.h"
+

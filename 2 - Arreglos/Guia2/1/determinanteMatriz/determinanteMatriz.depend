@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1790709708 source:d:\programacion ii\arreglos\guia2\1\determinantematriz\matrix.c
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+
+1790709741 d:\programacion ii\arreglos\guia2\1\determinantematriz\matrix.h
+
+1789614632 source:d:\programacion ii\arreglos\guia2\1\determinantematriz\vector.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+
+1790712802 d:\programacion ii\arreglos\guia2\1\determinantematriz\vector.h
+
+1790713599 source:d:\programacion ii\arreglos\guia2\1\determinantematriz\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+	"vector.h"
+	"funciones.h"
+
+1790713379 d:\programacion ii\arreglos\guia2\1\determinantematriz\funciones.h
+
+1790713767 source:d:\programacion ii\arreglos\guia2\1\determinantematriz\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+	"vector.h"
+	"funciones.h"
+

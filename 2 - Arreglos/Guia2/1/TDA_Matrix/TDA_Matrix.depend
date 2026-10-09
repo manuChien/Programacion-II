@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1789613308 source:d:\programacion ii\arreglos\guia2\1\tda_matrix\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+
+1789612609 d:\programacion ii\arreglos\guia2\1\tda_matrix\matrix.h
+
+1789613367 source:d:\programacion ii\arreglos\guia2\1\tda_matrix\matrix.c
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+

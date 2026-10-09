@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1790363661 source:d:\programacion ii\recursividad\chien_tda_vectorfracciones_recursiva\fracciones.c
+	<stdio.h>
+	<stdlib.h>
+	"fracciones.h"
+	"funciones.h"
+
+1789501434 d:\programacion ii\recursividad\chien_tda_vectorfracciones_recursiva\fracciones.h
+
+1789505638 d:\programacion ii\recursividad\chien_tda_vectorfracciones_recursiva\funciones.h
+	"vector.h"
+	"fracciones.h"
+
+1790364012 source:d:\programacion ii\recursividad\chien_tda_vectorfracciones_recursiva\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+	"fracciones.h"
+
+1790361481 source:d:\programacion ii\recursividad\chien_tda_vectorfracciones_recursiva\vector.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+
+1789502311 d:\programacion ii\recursividad\chien_tda_vectorfracciones_recursiva\vector.h
+	"fracciones.h"
+
+1789506452 source:d:\programacion ii\recursividad\chien_tda_vectorfracciones_recursiva\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+	"fracciones.h"
+	"funciones.h"
+
